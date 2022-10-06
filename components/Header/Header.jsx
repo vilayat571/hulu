@@ -16,13 +16,8 @@ export default function Header() {
       <div>
         <HeaderItem title='Home' Icon={HomeIcon} />
       </div>
-      <Image width={200} height={100} src={hulu} className={"object-contain"} />
+      <Image alt={"logo appearcence"} width={200} height={100} src={hulu} className={"object-contain"} />
     </header>
   );
 }
 
-/* 
-Have to convert image to webp
-
-
-*/
