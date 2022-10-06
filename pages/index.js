@@ -9,12 +9,9 @@ export default function Home() {
         <title>Hulu 2.0</title>
         <link rel="icon" href="" />
       </Head>
-      <h1>Let's build Hulu clone</h1>
-      {/* Header */}
-      <Header />
-      {/* Navbar */}
+      <h1>Lets build Hulu clone</h1>
 
-      {/* Walpapper */}
+      <Header />
     </div>
   );
 }
