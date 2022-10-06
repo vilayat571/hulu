@@ -10,10 +10,11 @@ module.exports = {
   darkmode: false,
   theme: {
     screens: {
-      sm: '200px',
-      md: '768px',
-      lg: '1024px',
-      xl: '1440px',
+      sm: "200px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1440px",
+      "3xl": "2000px",
     },
   },
   variants: {
