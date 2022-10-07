@@ -4,18 +4,28 @@ import Banners from "../components/Banners/Banners";
 import Header from "../components/Header/Header";
 import Nav from "../components/Navbar/Nav";
 import requests from "../utils/requests";
-
 export default function Home({ results }) {
   return (
-    <div>
+    <>
       <Head>
-        <title>Hulu 2.0</title>
-        <link rel="icon" href="" />
+        <title>Stream TV and Movies Live and Online | Hulu</title>
+        <link
+          rel="icon"
+          href="https://findicons.com/files/icons/1253/flurry_extras/256/hulu.png"
+        />
+        <meta
+          name="title"
+          content="Stream TV and Movies Live and Online | Hulu"
+        />
+        <meta
+          name="description"
+          content="Watch TV shows and movies online. Stream TV episodes of Grey's Anatomy, This Is Us, Bob's Burgers, Brooklyn Nine-Nine, Empire, SNL, and popular movies on your favorite devices. Start your free trial now. Cancel anytime."
+        />
       </Head>
       <Header />
       <Nav />
       <Banners banners={results} />
-    </div>
+    </>
   );
 }
 
